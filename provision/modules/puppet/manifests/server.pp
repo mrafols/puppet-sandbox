@@ -43,7 +43,7 @@ class puppet::server(
   }
 
   package { 'puppetmaster':
-    ensure => $ensure,
+   ensure => $ensure,
     name   => $package_name,
   }
 
